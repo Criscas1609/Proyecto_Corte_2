@@ -27,6 +27,7 @@ public class ElementViewController implements Initializable {
         stage = stage;
     }
 
+    /*
     @FXML
     private ResourceBundle resources;
 
@@ -85,6 +86,24 @@ public class ElementViewController implements Initializable {
 
     @FXML
     void cantidadElemen(MouseEvent event) {
+
+    }
+    @FXML
+    private TableView<Element> tblElement;
+
+    private ObservableList<Element> elements;
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        elements = FXCollections.observableArrayList();
+
+        this.colIdElem.setCellValueFactory(new PropertyValueFactory("id"));
+        this.colEstadoEle.setCellValueFactory(new PropertyValueFactory("Estado"));
+        this.colPrecioElem.setCellValueFactory(new PropertyValueFactory("Precio"));
+        this.colNombreEle.setCellValueFactory(new PropertyValueFactory("nombre"));
+        this.colTipoEle.setCellValueFactory(new PropertyValueFactory("Tipo"));
+        this.colUbiEle.setCellValueFactory(new PropertyValueFactory("Ubicacion"));
+        this.colUsoEle.setCellValueFactory(new PropertyValueFactory("Uso"));
 
     }
 

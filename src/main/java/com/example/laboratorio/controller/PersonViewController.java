@@ -182,7 +182,7 @@ public class PersonViewController {
 
     @FXML
     void initialize() {
-
+        
     }
 
 }
