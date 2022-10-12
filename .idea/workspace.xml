@@ -4,49 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48fe2252-b398-4eb7-9604-77bb89ba504e" name="Changes" comment="Avances">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ElementViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoanViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoginViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/PersonViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ReportViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/ElementService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/LoanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/ReportService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/impl/ElementServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/impl/LoanServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/impl/LoginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/impl/ReportServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/ElementView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/LoanView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/loginView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/personsView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/reportView.fxml" afterDir="false" />
+    <list default="true" id="48fe2252-b398-4eb7-9604-77bb89ba504e" name="Changes" comment="Avances 2.0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/MainViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/impl/LaboratoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/utils/165527304_3881466538607444_9069140467460221044_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/utils/201810010330544.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/utils/277589694_5036066919814061_7663069786932569509_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/utils/channels4_profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/views/MainView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/views/loginView.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ElementViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ElementViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoginViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Administrative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Administrative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Element.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Loan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/ViewService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/services/impl/ViewServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/trabajoProgramacion.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/ElementView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/views/ElementView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/LoanView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/views/LoanView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/loginView.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/personsView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/views/personsView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/reportView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/laboratorio/views/reportView.fxml" afterDir="false" />
     </list>
-    <list id="79eb5a88-af7e-456b-8a6e-3b976bd0d97b" name="Changes by Derly EQP" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Report.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Teacher.java" afterDir="false" />
+    <list id="79eb5a88-af7e-456b-8a6e-3b976bd0d97b" name="Changes by Derly EQP" comment="Changes by Derly EQP">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoginViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoginViewController.java" afterDir="false" />
     </list>
-    <list id="9dfd6dfb-fe8b-4393-8d4f-63aba02b3e15" name="Changes by Estudiante29" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ModelFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ModelFactoryController.java" afterDir="false" />
-    </list>
-    <list id="70e49134-9edb-4706-a7b0-434c668eb01c" name="Changes by paula" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Loan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Loan.java" afterDir="false" />
+    <list id="9dfd6dfb-fe8b-4393-8d4f-63aba02b3e15" name="Changes by Estudiante29" comment="Changes by Estudiante29" />
+    <list id="70e49134-9edb-4706-a7b0-434c668eb01c" name="Changes by paula" comment="Changes by paula">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ElementViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ElementViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/PersonViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/PersonViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +44,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -65,10 +53,31 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/main/java/com/example/laboratorio/model/Loan.java">
+    <file path="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/ElementViewController.java">
       <ranges>
-        <range start1="1" end1="1" start2="1" end2="3" changelist="70e49134-9edb-4706-a7b0-434c668eb01c" />
-        <range start1="3" end1="3" start2="5" end2="6" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="4" end1="4" start2="4" end2="7" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="6" end1="6" start2="9" end2="12" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="7" end1="7" start2="13" end2="19" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="8" end1="9" start2="20" end2="28" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="10" end1="10" start2="29" end2="30" changelist="70e49134-9edb-4706-a7b0-434c668eb01c" />
+        <range start1="14" end1="15" start2="34" end2="80" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="25" end1="25" start2="90" end2="108" changelist="70e49134-9edb-4706-a7b0-434c668eb01c" />
+        <range start1="29" end1="30" start2="112" end2="145" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="76" end1="81" start2="191" end2="191" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/example/laboratorio/controller/LoginViewController.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="18" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
+        <range start1="3" end1="3" start2="19" end2="82" changelist="79eb5a88-af7e-456b-8a6e-3b976bd0d97b" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/main/java/com/example/laboratorio/HelloApplication.java">
+      <ranges>
+        <range start1="2" end1="2" start2="2" end2="4" changelist="79eb5a88-af7e-456b-8a6e-3b976bd0d97b" />
+        <range start1="11" end1="16" start2="13" end2="22" changelist="79eb5a88-af7e-456b-8a6e-3b976bd0d97b" />
+        <range start1="19" end1="20" start2="25" end2="26" changelist="79eb5a88-af7e-456b-8a6e-3b976bd0d97b" />
+        <range start1="22" end1="29" start2="28" end2="29" changelist="48fe2252-b398-4eb7-9604-77bb89ba504e" />
       </ranges>
     </file>
   </component>
@@ -83,27 +92,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "C:/Users/Cristhian/Desktop/Universidad/co.edu.cue.lab",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Cristhian/Desktop/Universidad/co.edu.cue.lab&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\java\com\example\laboratorio\application" />
-      <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\java\com\example\laboratorio\css" />
+      <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\resources\com\example\laboratorio\views" />
       <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\java\com\example\laboratorio" />
+      <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\resources\com\example\laboratorio" />
+      <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\java\com\example\laboratorio\views" />
+      <recent name="C:\Users\Cristhian\Documents\Universidad\Programación\Laboratorio\src\main\java\com\example\laboratorio\utils" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.laboratorio" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.laboratorio" />
@@ -176,6 +190,8 @@
       <workItem from="1664976828333" duration="902000" />
       <workItem from="1665006166177" duration="6299000" />
       <workItem from="1665058018810" duration="6546000" />
+      <workItem from="1665502242301" duration="1250000" />
+      <workItem from="1665600462660" duration="12448000" />
     </task>
     <task id="LOCAL-00001" summary="Avances">
       <created>1665011266618</created>
@@ -184,7 +200,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665011266618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Avances 2.0">
+      <created>1665502326337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665502326337</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes by Derly EQP">
+      <created>1665502350294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665502350295</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changes by Estudiante29">
+      <created>1665502356674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665502356674</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changes by paula">
+      <created>1665502364822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665502364822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +248,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Avances" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avances" />
+    <MESSAGE value="Changes by Derly EQP" />
+    <MESSAGE value="Changes by Estudiante29" />
+    <MESSAGE value="Changes by paula" />
+    <MESSAGE value="Avances 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avances 2.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

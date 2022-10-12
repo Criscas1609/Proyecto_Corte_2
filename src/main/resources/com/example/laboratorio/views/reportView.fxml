@@ -77,12 +77,12 @@
                                                                         </AnchorPane>
                                                                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                                                                            <children>
-                                                                              <TableView layoutY="7.0" prefHeight="250.4" prefWidth="876.8" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                              <TableView fx:id="tableReportEst" layoutY="7.0" prefHeight="250.4" prefWidth="876.8" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                                                                  <columns>
-                                                                                    <TableColumn prefWidth="337.599957883358" text="Nombre" />
-                                                                                    <TableColumn minWidth="0.0" prefWidth="252.800048828125" text="Carrera" />
-                                                                                    <TableColumn minWidth="0.0" prefWidth="84.79998779296875" text="Semestre" />
-                                                                                    <TableColumn minWidth="0.0" prefWidth="202.4000244140625" text="Id" />
+                                                                                    <TableColumn fx:id="nameEs" prefWidth="337.599957883358" text="Nombre" />
+                                                                                    <TableColumn fx:id="careerEs" minWidth="0.0" prefWidth="252.800048828125" text="Carrera" />
+                                                                                    <TableColumn fx:id="semEs" minWidth="0.0" prefWidth="84.79998779296875" text="Semestre" />
+                                                                                    <TableColumn fx:id="idEs" minWidth="0.0" prefWidth="202.4000244140625" text="Id" />
                                                                                  </columns>
                                                                               </TableView>
                                                                            </children>
@@ -128,13 +128,13 @@
                                                                         </AnchorPane>
                                                                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                                                                            <children>
-                                                                              <TableView prefHeight="349.6" prefWidth="876.8">
+                                                                              <TableView fx:id="tableTeacher" prefHeight="349.6" prefWidth="876.8">
                                                                                  <columns>
-                                                                                    <TableColumn prefWidth="270.400042951107" text="Nombre" />
-                                                                                    <TableColumn prefWidth="127.20001220703125" text="Años de antiguedad" />
-                                                                                    <TableColumn prefWidth="178.40005493164062" text="Carrera dictada" />
-                                                                                    <TableColumn prefWidth="175.199951171875" text="Materia" />
-                                                                                    <TableColumn prefWidth="120.800048828125" text="Id" />
+                                                                                    <TableColumn fx:id="nameAdm" prefWidth="270.400042951107" text="Nombre" />
+                                                                                    <TableColumn fx:id="ageAdm" prefWidth="127.20001220703125" text="Años de antiguedad" />
+                                                                                    <TableColumn fx:id="careerAdm" prefWidth="178.40005493164062" text="Carrera dictada" />
+                                                                                    <TableColumn fx:id="asigAdm" prefWidth="175.199951171875" text="Materia" />
+                                                                                    <TableColumn fx:id="idAdm" prefWidth="120.800048828125" text="Id" />
                                                                                  </columns>
                                                                               </TableView>
                                                                            </children>

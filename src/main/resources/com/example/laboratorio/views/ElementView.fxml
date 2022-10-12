@@ -17,7 +17,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratorio.controller.ElementViewController">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratorio.controller.ElementViewController">
   <tabs>
     <Tab style="-fx-background-color: #FF8F8F;" text="Elementos">
       <content>
@@ -112,16 +112,16 @@
                                           <Button id="crearElemen" layoutX="81.0" layoutY="204.0" mnemonicParsing="false" onAction="#crearElemen" prefHeight="40.0" prefWidth="100.0" text="Crear" />
                                           <Button id="editarElemen" layoutX="284.0" layoutY="204.0" mnemonicParsing="false" onAction="#editarElemen" prefHeight="40.0" prefWidth="100.0" text="Editar" />
                                           <Button id="eliminarElemen" layoutX="716.0" layoutY="203.0" mnemonicParsing="false" onAction="#eliminarElemen" prefHeight="40.0" prefWidth="100.0" text="Eliminar" />
-                                          <TableView prefHeight="200.0" prefWidth="878.0">
+                                          <TableView fx:id="tblElement" prefHeight="200.0" prefWidth="878.0">
                                             <columns>
-                                              <TableColumn prefWidth="191.9999822974205" text="Nombre" />
-                                              <TableColumn prefWidth="91.20004272460938" text="Tipo" />
-                                                <TableColumn prefWidth="64.800048828125" text="Cantidad" />
-                                                <TableColumn prefWidth="88.79998779296875" text="Estado" />
-                                                <TableColumn prefWidth="115.2000732421875" text="Uso" />
-                                                <TableColumn prefWidth="135.20001220703125" text="Ubicacion" />
-                                                <TableColumn prefWidth="91.99993896484375" text="Id" />
-                                                <TableColumn prefWidth="95.19992675781248" text="Precio" />
+                                              <TableColumn fx:id="colNombreEle" prefWidth="191.9999822974205" text="Nombre" />
+                                              <TableColumn fx:id="colTipoEle" prefWidth="91.20004272460938" text="Tipo" />
+                                                <TableColumn fx:id="conlCantiEle" prefWidth="64.800048828125" text="Cantidad" />
+                                                <TableColumn fx:id="colEstadoEle" prefWidth="88.79998779296875" text="Estado" />
+                                                <TableColumn fx:id="colUsoEle" prefWidth="115.2000732421875" text="Uso" />
+                                                <TableColumn fx:id="colUbiEle" prefWidth="135.20001220703125" text="Ubicacion" />
+                                                <TableColumn fx:id="colIdElem" prefWidth="91.99993896484375" text="Id" />
+                                                <TableColumn fx:id="colPrecioElem" prefWidth="95.19992675781248" text="Precio" />
                                             </columns>
                                           </TableView>
                                           <Button id="buscarElemen" layoutX="514.0" layoutY="204.0" mnemonicParsing="false" onAction="#buscarElemen" prefHeight="40.0" prefWidth="100.0" text="Buscar" />

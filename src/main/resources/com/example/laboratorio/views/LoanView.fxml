@@ -84,13 +84,13 @@
                                     <Button id="añadirPrestamo" layoutX="98.0" layoutY="223.0" mnemonicParsing="false" onAction="#añadirPrestamo" prefHeight="40.0" prefWidth="100.0" text="Añadir" />
                                     <Button id="eliminarPrestamo" layoutX="349.0" layoutY="223.0" mnemonicParsing="false" onAction="#eliminarPrestamo" prefHeight="40.0" prefWidth="100.0" text="Eiminar" />
                                     <Button id="finalizarPrestamo" layoutX="721.0" layoutY="223.0" mnemonicParsing="false" onAction="#finalizarPrestamo" prefHeight="40.0" prefWidth="141.0" text="Finalizar compra" />
-                                    <TableView layoutX="14.0" layoutY="14.0" prefHeight="213.0" prefWidth="898.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                    <TableView fx:id="tblLoan" layoutX="14.0" layoutY="14.0" prefHeight="213.0" prefWidth="898.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                                       <columns>
-                                        <TableColumn prefWidth="273.60001224279404" text="Elemento" />
-                                        <TableColumn prefWidth="110.4000244140625" text="Cantidad" />
-                                          <TableColumn prefWidth="180.00003051757812" text="Fecha de prestamo" />
-                                          <TableColumn prefWidth="168.800048828125" text="Fecha de entrega" />
-                                          <TableColumn prefWidth="165.60003662109375" text="Precio" />
+                                        <TableColumn fx:id="colElementLoan" prefWidth="273.60001224279404" text="Elemento" />
+                                        <TableColumn fx:id="colCantiLoan" prefWidth="110.4000244140625" text="Cantidad" />
+                                          <TableColumn fx:id="colPrestamoLoan" prefWidth="180.00003051757812" text="Fecha de prestamo" />
+                                          <TableColumn fx:id="colEntregaLoan" prefWidth="168.800048828125" text="Fecha de entrega" />
+                                          <TableColumn fx:id="colPrecioLoan" prefWidth="165.60003662109375" text="Precio" />
                                       </columns>
                                     </TableView>
                                  </children>

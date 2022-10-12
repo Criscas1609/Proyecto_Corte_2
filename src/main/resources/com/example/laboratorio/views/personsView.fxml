@@ -80,12 +80,12 @@
                                           </AnchorPane>
                                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                                              <children>
-                                                <TableView layoutX="130.0" layoutY="16.0" prefHeight="165.0" prefWidth="877.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+                                                <TableView fx:id="tablePersonEs" layoutX="130.0" layoutY="16.0" prefHeight="165.0" prefWidth="877.0" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
                                                   <columns>
-                                                    <TableColumn prefWidth="337.599957883358" text="Nombre" />
-                                                    <TableColumn minWidth="0.0" prefWidth="252.800048828125" text="Carrera" />
-                                                      <TableColumn minWidth="0.0" prefWidth="84.79998779296875" text="Semestre" />
-                                                      <TableColumn minWidth="0.0" prefWidth="202.4000244140625" text="Id" />
+                                                    <TableColumn fx:id="nameEs" prefWidth="337.599957883358" text="Nombre" />
+                                                    <TableColumn fx:id="careerEs" minWidth="0.0" prefWidth="252.800048828125" text="Carrera" />
+                                                      <TableColumn fx:id="SemEs" minWidth="0.0" prefWidth="84.79998779296875" text="Semestre" />
+                                                      <TableColumn fx:id="idEs" minWidth="0.0" prefWidth="202.4000244140625" text="Id" />
                                                   </columns>
                                                 </TableView>
                                                 <Button id="botonCrearE" layoutX="76.0" layoutY="183.0" mnemonicParsing="false" onAction="#botonCrearE" prefHeight="40.0" prefWidth="100.0" text="Crear" />
@@ -161,12 +161,12 @@
                                                 </AnchorPane>
                                                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
                                                    <children>
-                                                      <TableView prefHeight="165.0" prefWidth="877.0">
+                                                      <TableView fx:id="tableMonitor" prefHeight="165.0" prefWidth="877.0">
                                                          <columns>
-                                                            <TableColumn prefWidth="337.599957883358" text="Nombre" />
-                                                            <TableColumn minWidth="0.0" prefWidth="252.800048828125" text="Carrera" />
-                                                            <TableColumn minWidth="0.0" prefWidth="84.79998779296875" text="Semestre" />
-                                                            <TableColumn minWidth="0.0" prefWidth="202.4000244140625" text="Id" />
+                                                            <TableColumn fx:id="nameMo" prefWidth="337.599957883358" text="Nombre" />
+                                                            <TableColumn fx:id="careerMo" minWidth="0.0" prefWidth="252.800048828125" text="Carrera" />
+                                                            <TableColumn fx:id="semMo" minWidth="0.0" prefWidth="84.79998779296875" text="Semestre" />
+                                                            <TableColumn fx:id="idMo" minWidth="0.0" prefWidth="202.4000244140625" text="Id" />
                                                          </columns>
                                                       </TableView>
                                                       <Button layoutX="705.0" layoutY="176.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" text="Crear" />
