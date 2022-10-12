@@ -15,7 +15,6 @@ public class HelloApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader();
         fxmlLoader.setLocation((getClass().getResource("views/loginView.fxml")));
         Scene scene = new Scene(fxmlLoader.load());
-//Stage stage = new Stage();
         viewStage.setScene(scene);
         LoginViewController controller = fxmlLoader.getController();
         controller.setStage(viewStage);
