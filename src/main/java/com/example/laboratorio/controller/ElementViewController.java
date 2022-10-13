@@ -2,6 +2,8 @@ package com.example.laboratorio.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import com.example.laboratorio.controller.ModelFactoryController;
 import com.example.laboratorio.model.Element;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -17,7 +19,7 @@ import javafx.stage.Stage;
 
 
 public class ElementViewController implements Initializable {
-
+    ModelFactoryController mfc= ModelFactoryController.getInstance();
     private Stage stage;
     public Stage getStage() {
         return stage;
@@ -83,36 +85,29 @@ public class ElementViewController implements Initializable {
     @FXML
     private TableView<Element> tblElement;
 
-    private ObservableList<Element> elements;
+   /* private ObservableList<Element> elements;*/
+
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        elements = FXCollections.observableArrayList();
 
-        this.colIdElem.setCellValueFactory(new PropertyValueFactory("id"));
-        this.colEstadoEle.setCellValueFactory(new PropertyValueFactory("Estado"));
-        this.colPrecioElem.setCellValueFactory(new PropertyValueFactory("Precio"));
-        this.colNombreEle.setCellValueFactory(new PropertyValueFactory("nombre"));
-        this.colTipoEle.setCellValueFactory(new PropertyValueFactory("Tipo"));
-        this.colUbiEle.setCellValueFactory(new PropertyValueFactory("Ubicacion"));
-        this.colUsoEle.setCellValueFactory(new PropertyValueFactory("Uso"));
+        colIdElem.setCellValueFactory(new PropertyValueFactory<>("id"));
+        colEstadoEle.setCellValueFactory(new PropertyValueFactory<>("estado"));
+        colPrecioElem.setCellValueFactory(new PropertyValueFactory<>("precio"));
+        colNombreEle.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+        colTipoEle.setCellValueFactory(new PropertyValueFactory<>("tipo"));
+        colUbiEle.setCellValueFactory(new PropertyValueFactory<>("ubicacion"));
+        colUsoEle.setCellValueFactory(new PropertyValueFactory<>("uso"));
 
+        tipoElemen.setValue("Fichas");
+        tipoElemen.setItems(mfc.getTipoElement());
     }
 
     @FXML
-    void crearElemen(ActionEvent event) {
+    void crearElemen() {
 
-        try {
-            String nombre = this.nombreElemen.getText();
-            String tipo = String.valueOf(this.tipoElemen.getSelectionModel().selectedIndexProperty());
-            String cantidad = String.valueOf(this.cantidadElemen.getSelectionModel().selectedIndexProperty());
-            String uso = String.valueOf(this.usoElemen.getSelectionModel().selectedIndexProperty());
-            String ubicacion = String.valueOf(this.ubiElemen.getSelectionModel().selectedIndexProperty());
-            String estado = String.valueOf(this.estadoElemen.getSelectionModel().selectedIndexProperty());
-            String id = this.idElemen.getText();
-            int precio = Integer.parseInt(this.precioElemen.getText());
+       /* try {
 
-            Element element = new Element(nombre, tipo, cantidad, uso, ubicacion, estado, id, precio);
 
             if (!this.elements.contains(element)) {
                 this.elements.add(element);
@@ -132,7 +127,19 @@ public class ElementViewController implements Initializable {
             alert.setTitle("Error");
             alert.setContentText("Formato incorrecto");
             alert.showAndWait();
-        }
+        }*/
+        String nombre = String.valueOf(this.nombreElemen.getText());
+        String tipo = String.valueOf(this.tipoElemen.getSelectionModel().selectedIndexProperty());
+        String cantidad = String.valueOf(this.cantidadElemen.getSelectionModel().selectedIndexProperty());
+        String uso = String.valueOf(this.usoElemen.getSelectionModel().selectedIndexProperty());
+        String ubicacion = String.valueOf(this.ubiElemen.getSelectionModel().selectedIndexProperty());
+        String estado = String.valueOf(this.estadoElemen.getSelectionModel().selectedIndexProperty());
+        String id = String.valueOf(this.idElemen.getText());
+        int precio = Integer.parseInt(this.precioElemen.getText());
+
+        mfc.crearElemen(nombre,tipo,cantidad,uso,ubicacion,estado,id,precio);
+        tblElement.setItems(mfc.laboratory.getElementService().getObservableListElement());
+        tblElement.refresh();
     }
 
     @FXML

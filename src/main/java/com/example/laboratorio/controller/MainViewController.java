@@ -1,7 +1,11 @@
 package com.example.laboratorio.controller;
 
+import java.io.IOException;
 import java.net.URL;
+import java.util.Objects;
 import java.util.ResourceBundle;
+
+import com.example.laboratorio.HelloApplication;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,7 +34,12 @@ public class MainViewController {
     }
 
     @FXML
-    void loanView(ActionEvent event) {
+    void loanView(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("LoanView.fxml")));
+        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene=new Scene(root);
+        stage.setScene(scene);
+        stage.show();
 
     }
 

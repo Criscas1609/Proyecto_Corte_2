@@ -18,12 +18,12 @@
                <children>
                   <Label alignment="TOP_LEFT" layoutX="119.0" layoutY="42.0" text="Usuario" />
                   <Label layoutX="109.0" layoutY="104.0" text="Contraseña" />
-                  <TextField layoutX="65.0" layoutY="71.0" onAction="#loginUsuario" promptText="Ingrese su usuario" />
+                  <TextField fx:id="loginUsuario" layoutX="65.0" layoutY="71.0" promptText="Ingrese su usuario" />
                   <Button layoutX="90.0" layoutY="177.0" mnemonicParsing="false" onAction="#mainView" prefHeight="40.0" prefWidth="100.0" text="Entrar" />
-                  <PasswordField layoutX="64.0" layoutY="136.0" onAction="#loginContraseña" promptText="Ingrese su contraseña" />
+                  <PasswordField fx:id="loginContraseña" layoutX="64.0" layoutY="136.0" promptText="Ingrese su contraseña" />
                   <ImageView fitHeight="155.0" fitWidth="160.0" layoutX="290.0" layoutY="59.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../java/com/example/laboratorio/utils/165527304_3881466538607444_9069140467460221044_n.png" />
+                        <Image url="@photos/165527304_3881466538607444_9069140467460221044_n.png" />
                      </image>
                   </ImageView>
                </children>

@@ -48,7 +48,7 @@
                                                       <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
                                                          <children>
                                                             <Label text="Nombre" />
-                                                            <TextField id="nombreEstudiante" onAction="#nombreEstudiante" prefHeight="26.0" prefWidth="526.0" promptText="Ingrese el nombre del estudiante" />
+                                                            <TextField id="nombreEstudiante" fx:id="nombreEstudiante" prefHeight="26.0" prefWidth="526.0" promptText="Ingrese el nombre del estudiante" />
                                                          </children>
                                                          <padding>
                                                             <Insets left="10.0" />
@@ -57,9 +57,9 @@
                                                       <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="1">
                                                          <children>
                                                             <Label text="Carrera" />
-                                                            <ChoiceBox onDragDetected="#carreraEstudiante" prefHeight="26.0" prefWidth="238.0" />
+                                                            <ChoiceBox fx:id="carreraEstudiante" prefHeight="26.0" prefWidth="238.0" />
                                                             <Label text="Semestre" />
-                                                            <ChoiceBox id="semestreEstudiante" onDragDetected="#semestreEstudiante" prefHeight="26.0" prefWidth="258.0" />
+                                                            <ChoiceBox id="semestreEstudiante" fx:id="semestreEstudiante" prefHeight="26.0" prefWidth="258.0" />
                                                          </children>
                                                          <padding>
                                                             <Insets left="10.0" />
@@ -68,7 +68,7 @@
                                                       <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="2">
                                                          <children>
                                                             <Label text="Id" />
-                                                            <TextField id="idEstudiante" onAction="#idEstudiante" prefHeight="26.0" prefWidth="534.0" promptText="Ingrese el id del estudiante" />
+                                                            <TextField id="idEstudiante" fx:id="idEstudiante" prefHeight="26.0" prefWidth="534.0" promptText="Ingrese el id del estudiante" />
                                                          </children>
                                                          <padding>
                                                             <Insets left="10.0" />
@@ -124,7 +124,7 @@
                                                             <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
                                                                <children>
                                                                   <Label text="Nombre" />
-                                                                  <TextField id="nombreMonitor" onAction="#nombreMonitor" prefHeight="26.0" prefWidth="526.0" promptText="Ingrese el nombre del monitor" />
+                                                                  <TextField id="nombreMonitor" fx:id="nombreMonitor" prefHeight="26.0" prefWidth="526.0" promptText="Ingrese el nombre del monitor" />
                                                                </children>
                                                                <padding>
                                                                   <Insets left="10.0" />
@@ -138,9 +138,9 @@
                                                             <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="1">
                                                                <children>
                                                                   <Label text="Carrera" />
-                                                                  <ChoiceBox id="carreraMonitor" onDragDetected="#carreraMonitor" prefHeight="26.0" prefWidth="218.0" />
+                                                                  <ChoiceBox id="carreraMonitor" fx:id="carreraMonitor" prefHeight="26.0" prefWidth="218.0" />
                                                                   <Label text="Semestre" />
-                                                                  <ChoiceBox id="semestreMonitor" onDragDetected="#semestreMonitor" prefHeight="26.0" prefWidth="213.0" />
+                                                                  <ChoiceBox id="semestreMonitor" fx:id="semestreMonitor" onDragDetected="#semestreMonitor" prefHeight="26.0" prefWidth="213.0" />
                                                                </children>
                                                                <padding>
                                                                   <Insets left="10.0" />
@@ -149,7 +149,7 @@
                                                             <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="2">
                                                                <children>
                                                                   <Label text="Codigo" />
-                                                                  <TextField id="codigoMonitor" onAction="#codigoMonitor" prefHeight="26.0" prefWidth="534.0" promptText="Ingrese el codigo del monitor" />
+                                                                  <TextField id="codigoMonitor" fx:id="codigoMonitor" prefHeight="26.0" prefWidth="534.0" promptText="Ingrese el codigo del monitor" />
                                                                </children>
                                                                <padding>
                                                                   <Insets left="10.0" />
@@ -215,7 +215,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
                                                                                  <children>
                                                                                     <Label text="Nombre" />
-                                                                                    <TextField id="nombreProfesor" onAction="#nombreProfesor" prefHeight="26.0" prefWidth="590.0" promptText="Ingrese el nombre del profesor" />
+                                                                                    <TextField id="nombreProfesor" fx:id="nombreProfesor" prefHeight="26.0" prefWidth="590.0" promptText="Ingrese el nombre del profesor" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -224,7 +224,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="1">
                                                                                  <children>
                                                                                     <Label text="Años de antiguedad" />
-                                                                                    <TextField id="añosProfesor" onAction="#añosProfesor" prefHeight="26.0" prefWidth="527.0" promptText="Ingrese los años de antiguedad" />
+                                                                                    <TextField id="añosProfesor" fx:id="añosProfesor" prefHeight="26.0" prefWidth="527.0" promptText="Ingrese los años de antiguedad" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -233,9 +233,9 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="2">
                                                                                  <children>
                                                                                     <Label text="Carrera dictada" />
-                                                                                    <ChoiceBox id="carreraProfesor" onDragDetected="#carreraProfesor" prefHeight="26.0" prefWidth="207.0" />
+                                                                                    <ChoiceBox id="carreraProfesor" fx:id="carreraProfesor" prefHeight="26.0" prefWidth="207.0" />
                                                                                     <Label text="Materia" />
-                                                                                    <ChoiceBox id="materiaProfesor" onDragDetected="#materiaProfesor" prefHeight="26.0" prefWidth="241.0" />
+                                                                                    <ChoiceBox id="materiaProfesor" fx:id="materiaProfesor" prefHeight="26.0" prefWidth="241.0" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -244,7 +244,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="3">
                                                                                  <children>
                                                                                     <Label text="Id" />
-                                                                                    <TextField id="idProfesor" onAction="#idProfesor" prefHeight="26.0" prefWidth="626.0" promptText="Ingrese el id del profesor" />
+                                                                                    <TextField id="idProfesor" fx:id="idProfesor" onAction="#idProfesor" prefHeight="26.0" prefWidth="626.0" promptText="Ingrese el id del profesor" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -303,7 +303,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
                                                                                  <children>
                                                                                     <Label text="Nombre" />
-                                                                                    <TextField id="nombreAdmin" onAction="#nombreAdmin" prefHeight="26.0" prefWidth="595.0" promptText="Ingrese el nombre del administrativo" />
+                                                                                    <TextField id="nombreAdmin" fx:id="nombreAdmin" prefHeight="26.0" prefWidth="595.0" promptText="Ingrese el nombre del administrativo" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -312,7 +312,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="1">
                                                                                  <children>
                                                                                     <Label text="Años de antiguedad" />
-                                                                                    <TextField id="añosAdmin" onAction="#añosAdmin" prefHeight="26.0" prefWidth="532.0" promptText="Ingrese los años de antiguedad" />
+                                                                                    <TextField id="añosAdmin" fx:id="añosAdmin" prefHeight="26.0" prefWidth="532.0" promptText="Ingrese los años de antiguedad" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -321,7 +321,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="2">
                                                                                  <children>
                                                                                     <Label text="Cargo" />
-                                                                                    <ChoiceBox id="cargoAdmin" onDragDetected="#cargoAdmin" prefHeight="26.0" prefWidth="238.0" />
+                                                                                    <ChoiceBox id="cargoAdmin" fx:id="cargoAdmin" prefHeight="26.0" prefWidth="238.0" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />
@@ -330,7 +330,7 @@
                                                                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.rowIndex="3">
                                                                                  <children>
                                                                                     <Label text="Id" />
-                                                                                    <TextField id="idAdmin" onAction="#idAdmin" prefHeight="26.0" prefWidth="602.0" promptText="Ingrese el Id" />
+                                                                                    <TextField id="idAdmin" fx:id="idAdmin" prefHeight="26.0" prefWidth="602.0" promptText="Ingrese el Id" />
                                                                                  </children>
                                                                                  <padding>
                                                                                     <Insets left="10.0" />

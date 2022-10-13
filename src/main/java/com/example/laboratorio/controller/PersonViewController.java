@@ -1,29 +1,100 @@
 package com.example.laboratorio.controller;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.TableColumn;
+import javafx.scene.control.TableView;
+import javafx.scene.control.TextField;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class PersonViewController implements Initializable {
 
     @FXML
-    private ResourceBundle resources;
+    private TableColumn<?, ?> SemEs;
 
     @FXML
-    private URL location;
+    private TextField añosAdmin;
 
     @FXML
-    void añosAdmin(ActionEvent event) {
-
-
-    }
+    private TextField añosProfesor;
 
     @FXML
-    void añosProfesor(ActionEvent event) {
+    private TableColumn<?, ?> careerEs;
 
-    }
+    @FXML
+    private TableColumn<?, ?> careerMo;
+
+    @FXML
+    private ChoiceBox<?> cargoAdmin;
+
+    @FXML
+    private ChoiceBox<?> carreraEstudiante;
+
+    @FXML
+    private ChoiceBox<?> carreraMonitor;
+
+    @FXML
+    private ChoiceBox<?> carreraProfesor;
+
+    @FXML
+    private TextField codigoMonitor;
+
+    @FXML
+    private TextField idAdmin;
+
+    @FXML
+    private TableColumn<?, ?> idEs;
+
+    @FXML
+    private TextField idEstudiante;
+
+    @FXML
+    private TableColumn<?, ?> idMo;
+
+    @FXML
+    private TextField idProfesor;
+
+    @FXML
+    private ChoiceBox<?> materiaProfesor;
+
+    @FXML
+    private TableColumn<?, ?> nameEs;
+
+    @FXML
+    private TableColumn<?, ?> nameMo;
+
+    @FXML
+    private TextField nombreAdmin;
+
+    @FXML
+    private TextField nombreEstudiante;
+
+    @FXML
+    private TextField nombreMonitor;
+
+    @FXML
+    private TextField nombreProfesor;
+
+    @FXML
+    private TableColumn<?, ?> semMo;
+
+    @FXML
+    private ChoiceBox<?> semestreEstudiante;
+
+    @FXML
+    private ChoiceBox<?> semestreMonitor;
+
+    @FXML
+    private TableView<?> tableMonitor;
+
+    @FXML
+    private TableView<?> tablePersonEs;
 
     @FXML
     void botonBuscarE(ActionEvent event) {
@@ -57,31 +128,6 @@ public class PersonViewController implements Initializable {
 
     @FXML
     void buscarProfesor(ActionEvent event) {
-
-    }
-
-    @FXML
-    void cargoAdmin(MouseEvent event) {
-
-    }
-
-    @FXML
-    void carreraEstudiante(MouseEvent event) {
-
-    }
-
-    @FXML
-    void carreraMonitor(MouseEvent event) {
-
-    }
-
-    @FXML
-    void carreraProfesor(MouseEvent event) {
-
-    }
-
-    @FXML
-    void codigoMonitor(ActionEvent event) {
 
     }
 
@@ -131,47 +177,7 @@ public class PersonViewController implements Initializable {
     }
 
     @FXML
-    void idAdmin(ActionEvent event) {
-
-    }
-
-    @FXML
-    void idEstudiante(ActionEvent event) {
-
-    }
-
-    @FXML
     void idProfesor(ActionEvent event) {
-
-    }
-
-    @FXML
-    void materiaProfesor(MouseEvent event) {
-
-    }
-
-    @FXML
-    void nombreAdmin(ActionEvent event) {
-
-    }
-
-    @FXML
-    void nombreEstudiante(ActionEvent event) {
-
-    }
-
-    @FXML
-    void nombreMonitor(ActionEvent event) {
-
-    }
-
-    @FXML
-    void nombreProfesor(ActionEvent event) {
-
-    }
-
-    @FXML
-    void semestreEstudiante(MouseEvent event) {
 
     }
 
@@ -180,10 +186,17 @@ public class PersonViewController implements Initializable {
 
     }
 
-    @FXML
-    void initialize() {
-        
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+
     }
 
+    /*@Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        nameEs.setCellValueFactory(new PropertyValueFactory<>("id"));
+        careerEs.setCellValueFactory(new PropertyValueFactory<>("carrera"));
+        semestreEstudiante.setCellValueFactory(new PropertyValueFactory<>("precio"));
+        idEs.setCellValueFactory(new PropertyValueFactory<>("nombre"));
+    }*/
 }
 

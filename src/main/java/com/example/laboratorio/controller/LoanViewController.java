@@ -65,10 +65,11 @@ public class LoanViewController implements Initializable {
 
     }
 
-    @FXML
-    void initialize() {
+
+
+    @Override
+    public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
-
 }
 

@@ -30,7 +30,7 @@
                <children>
                   <ImageView fitHeight="351.0" fitWidth="260.0" layoutX="-5.0" pickOnBounds="true">
                      <image>
-                        <Image url="@../../../../../java/com/example/laboratorio/utils/277589694_5036066919814061_7663069786932569509_n.png" />
+                        <Image url="@photos/277589694_5036066919814061_7663069786932569509_n.png" />
                      </image>
                   </ImageView>
                </children>
