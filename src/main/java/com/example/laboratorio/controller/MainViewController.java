@@ -4,11 +4,16 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class MainViewController {
     private LoginViewController loginController;
     private Stage stage;
+    private Parent root;
     @FXML
     private ResourceBundle resources;
 
@@ -16,8 +21,12 @@ public class MainViewController {
     private URL location;
 
     @FXML
-    void elementView(ActionEvent event) {
-
+    void elementView(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("ElementView.fxml")));
+        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene=new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML
@@ -26,13 +35,21 @@ public class MainViewController {
     }
 
     @FXML
-    void personView(ActionEvent event) {
-
+    void personView(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("personsView.fxml")));
+        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene=new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
     @FXML
-    void reportView(ActionEvent event) {
-
+    void reportView(ActionEvent event) throws IOException {
+        root= FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("ReportView.fxml")));
+        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene=new Scene(root);
+        stage.setScene(scene);
+        stage.show();
     }
 
 

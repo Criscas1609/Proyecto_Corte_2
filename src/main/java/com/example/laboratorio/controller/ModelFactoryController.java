@@ -21,6 +21,24 @@ public class ModelFactoryController implements ModelFactoryControllerService {
         System.out.println("invocación clase singleton");
         laboratory = new LaboratoryServiceImpl();
     }
+    public Boolean login(String user, String password){
+        System.out.println(user + password);
+        return laboratory.getLoginService().login(user,password);
+    }
+
+
+    //Elementos funciones:
+
+    public void crearElemen(String nombre, String tipo,String cantidad,String uso, String ubicacion, String estado,String id,int precio){
+        laboratory.getElementService().crearElemen(nombre, tipo, cantidad, uso, ubicacion, estado, id, precio);
+    }
+    public ObservableList<Element>getElementArrayList(){
+        return laboratory.getElementService().getObservableListElement();
+    }
+    public ObservableList<String>getTipoElement(){
+        return laboratory.getElementService().getTipoElemenList();
+    }
+
 
 }
 

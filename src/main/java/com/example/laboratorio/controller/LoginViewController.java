@@ -25,27 +25,21 @@ public class LoginViewController  {
     private TextField txtName;
     @FXML
     private ResourceBundle resources;
-    @FXML
-    void loginContraseña(ActionEvent event) {
-
-    }
-
-    @FXML
-    void loginUsuario(ActionEvent event) {
-
-    }
 
     @FXML
     private URL location;
 
     @FXML
     public void mainView(ActionEvent event) throws IOException {
-
-        root= FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("views/MainView.fxml")));
-        stage=(Stage)((Node)event.getSource()).getScene().getWindow();
-        scene=new Scene(root);
-        stage.setScene(scene);
-        stage.show();
+        System.out.println(loginContraseña.getText()+loginUsuario.getText());
+        boolean x = ModelFactoryController.getInstance().login(loginUsuario.getText(),loginContraseña.getText());
+        if(x){
+            root= FXMLLoader.load(Objects.requireNonNull(HelloApplication.class.getResource("MainView.fxml")));
+            stage=(Stage)((Node)event.getSource()).getScene().getWindow();
+            scene=new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+        }
     }
 
     public Stage getStage() {

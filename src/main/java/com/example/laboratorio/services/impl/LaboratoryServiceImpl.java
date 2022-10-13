@@ -19,10 +19,9 @@ public class LaboratoryServiceImpl {
         reportService = (ReportService) new ReportServiceImpl();*/
     }
 
-    public LoginService getLoginService() {
+   public LoginService getLoginService() {
         return loginService;
     }
-
     public ElementService getElementService() {return elementService;}
     /*public ReportService getReportService() {return reportService;}
     public LoanService getLoanService() {return loanService;}
