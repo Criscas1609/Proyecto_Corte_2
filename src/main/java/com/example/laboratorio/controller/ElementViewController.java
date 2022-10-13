@@ -34,28 +34,28 @@ public class ElementViewController implements Initializable {
     @FXML
     private URL location;*/
     @FXML
-    private TableColumn colEstadoEle;
+    private TableColumn<?, ?> colEstadoEle;
 
     @FXML
-    private TableColumn colIdElem;
+    private TableColumn<?, ?> colIdElem;
 
     @FXML
-    private TableColumn colNombreEle;
+    private TableColumn<?, ?> colNombreEle;
 
     @FXML
-    private TableColumn colPrecioElem;
+    private TableColumn<?, ?> colPrecioElem;
 
     @FXML
-    private TableColumn colTipoEle;
+    private TableColumn<?, ?> colTipoEle;
 
     @FXML
-    private TableColumn colUbiEle;
+    private TableColumn<?, ?> colUbiEle;
 
     @FXML
-    private TableColumn colUsoEle;
+    private TableColumn<?, ?> colUsoEle;
 
     @FXML
-    private TableColumn conlCantiEle;
+    private TableColumn<?, ?> conlCantiEle;
 
     @FXML
     private ChoiceBox<?> cantidadElemen;
@@ -71,7 +71,7 @@ public class ElementViewController implements Initializable {
     private TextField precioElemen;
 
     @FXML
-    private ChoiceBox<?> tipoElemen;
+    private ChoiceBox tipoElemen;
     @FXML
     private ChoiceBox<?> ubiElemen;
 
@@ -79,15 +79,7 @@ public class ElementViewController implements Initializable {
     private ChoiceBox<?> usoElemen;
     /* private Alert alert;*/
 
-    @FXML
-    void buscarElemen(ActionEvent event) {
 
-    }
-
-    @FXML
-    void cantidadElemen(MouseEvent event) {
-
-    }
     @FXML
     private TableView<Element> tblElement;
 
@@ -143,7 +135,10 @@ public class ElementViewController implements Initializable {
         }
     }
 
+    @FXML
+    void buscarElemen(ActionEvent event) {
 
+    }
     @FXML
     void editarElemen(ActionEvent event) {
 
@@ -151,41 +146,6 @@ public class ElementViewController implements Initializable {
 
     @FXML
     void eliminarElemen(ActionEvent event) {
-
-    }
-
-    @FXML
-    void estadoElemen(MouseEvent event) {
-
-    }
-
-    @FXML
-    void idElemen(ActionEvent event) {
-
-    }
-
-    @FXML
-    void nombreElemen(ActionEvent event) {
-
-    }
-
-    @FXML
-    void precioElemen(ActionEvent event) {
-
-    }
-
-    @FXML
-    void tipoElemen(MouseEvent event) {
-
-    }
-
-    @FXML
-    void ubiElemen(MouseEvent event) {
-
-    }
-
-    @FXML
-    void usoElemen(MouseEvent event) {
 
     }
 

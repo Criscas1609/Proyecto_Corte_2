@@ -1,7 +1,9 @@
 package com.example.laboratorio.controller;
 
+import com.example.laboratorio.model.Element;
 import com.example.laboratorio.services.ModelFactoryControllerService;
 import com.example.laboratorio.services.impl.LaboratoryServiceImpl;
+import javafx.collections.ObservableList;
 
 public class ModelFactoryController implements ModelFactoryControllerService {
     LaboratoryServiceImpl laboratory;
@@ -21,3 +23,4 @@ public class ModelFactoryController implements ModelFactoryControllerService {
     }
 
 }
+
